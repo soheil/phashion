@@ -43,6 +43,6 @@ Dir.chdir(HERE) do
   $LIBS = " -lpthread -lpHash_gem -lstdc++ -ljpeg -lpng"
 end
 
-have_header 'sqlite3ext.h'
+# have_header 'sqlite3ext.h'
 
 create_makefile 'phashion_ext'
